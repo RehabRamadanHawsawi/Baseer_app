@@ -1,6 +1,7 @@
 // ignore_for_file: file_names
-
+// ignore: depend_on_referenced_packages
 import 'package:flutter/material.dart';
+import '../components/my_components.dart';
 
 class LoginAdmin extends StatelessWidget {
   //اعطاء اسم للصفة لتسهيل الاستدعاء في / main
@@ -43,7 +44,7 @@ class LoginAdmin extends StatelessWidget {
             Image.asset('images/LOGO-.png', width: 400, height: 400),
 
             // --------------------------------Email
-            /*   const MyTextField(
+            const MyTextField(
               // controller: _emailController,
               hintText: "البريد الإلكتروني",
             ),
@@ -67,7 +68,7 @@ class LoginAdmin extends StatelessWidget {
             ),
             const SizedBox(
               height: 19,
-            ),*/
+            ),
             //------------------------------------ButtonLogin
             const SizedBox(
               height: 19,
