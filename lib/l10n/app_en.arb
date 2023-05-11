@@ -1,10 +1,9 @@
 {
 "@@locale": "en",
-"admin_button_label":"Admin"
-"user_button_label":"User"
+"admin_button_label":"Admin",
+"user_button_label":"User",
 "logIn":"LOGIN",
 "password":"Password",
 "email":"Email",
 "id":"ID",
-
 }
