@@ -6,12 +6,12 @@ import '../components/my_components.dart';
 class LoginAdmin extends StatelessWidget {
   //اعطاء اسم للصفة لتسهيل الاستدعاء في / main
   static const String id = 'Login_Admin';
-  const LoginAdmin({super.key});
+  LoginAdmin({Key? key}) : super(key: key);
 
 //class _LoginAdmin extends State<LoginAdmin>{
-  // final _emailController = TextEditingController();
-  //final _passwordController = TextEditingController();
-  // final _idController = TextEditingController();
+  final _emailController = TextEditingController();
+  final _passwordController = TextEditingController();
+  final _idController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -45,15 +45,15 @@ class LoginAdmin extends StatelessWidget {
 
             // --------------------------------Email
             const MyTextField(
-              // controller: _emailController,
-              hintText: "البريد الإلكتروني",
+              //  controller: _emailController,
+              hintText: "Email",
             ),
             const SizedBox(
               height: 19,
             ),
             // -------------------------------Password
             const MyTextField(
-              // controller: _passwordController,
+              //  controller: _passwordController,
               hintText: "كلمة المرور",
               prefixIcon: Icon(Icons.remove_red_eye), //الكشف عن الرمز
               obscureText: true,
@@ -70,9 +70,6 @@ class LoginAdmin extends StatelessWidget {
               height: 19,
             ),
             //------------------------------------ButtonLogin
-            const SizedBox(
-              height: 19,
-            ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 120.0),
               child: Container(

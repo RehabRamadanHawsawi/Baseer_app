@@ -55,8 +55,7 @@ class Welcome extends StatelessWidget {
                   ),
                   onPressed: () {
                     Navigator.of(context).push(
-                      MaterialPageRoute(
-                          builder: (context) => const LoginAdmin()),
+                      MaterialPageRoute(builder: (context) => LoginAdmin()),
                     );
                   },
                   child: const Text(
