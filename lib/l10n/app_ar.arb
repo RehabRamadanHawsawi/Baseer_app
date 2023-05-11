@@ -1,7 +1,7 @@
 {
 "@@locale": "ar",
 "admin_button_label": "المسؤول",
-"user_button_label": "المستخدم"
+"user_button_label": "المستخدم",
 "logIn":" دخول",
 "password":"كلمة المرور",
 "email":"البريد الإلكتروني",
