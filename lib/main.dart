@@ -1,6 +1,5 @@
 // ignore: depend_on_referenced_packages
-import 'dart:js';
-
+// ignore: depend_on_referenced_packages
 import 'package:flutter/material.dart';
 import 'Pages/LoginAdmin.dart';
 // ignore: depend_on_referenced_packages
