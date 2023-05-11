@@ -6,12 +6,12 @@ import '../components/my_components.dart';
 class LoginAdmin extends StatelessWidget {
   //اعطاء اسم للصفة لتسهيل الاستدعاء في / main
   static const String id = 'Login_Admin';
-  LoginAdmin({Key? key}) : super(key: key);
+  const LoginAdmin({Key? key}) : super(key: key);
 
 //class _LoginAdmin extends State<LoginAdmin>{
-  final _emailController = TextEditingController();
-  final _passwordController = TextEditingController();
-  final _idController = TextEditingController();
+  //final _emailController = TextEditingController();
+  //final _passwordController = TextEditingController();
+  // final _idController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {

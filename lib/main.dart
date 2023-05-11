@@ -13,16 +13,16 @@ void main() async {
   await Firebase.initializeApp();
 
   runApp(
-    MaterialApp(
+    const MaterialApp(
       debugShowCheckedModeBanner: false,
 
       ///ترجمة اللغة من عربي لانجايز والعكس
-      localizationsDelegates: const [
+      localizationsDelegates: [
         AppLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
       ],
-      supportedLocales: const [
+      supportedLocales: [
         Locale('en'), // English
         Locale('ar'), // Arebic
       ],

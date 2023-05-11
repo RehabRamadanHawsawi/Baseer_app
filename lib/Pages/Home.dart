@@ -1,3 +1,7 @@
+// ignore: depend_on_referenced_packages
+// ignore_for_file: file_names
+
+// ignore: depend_on_referenced_packages
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
