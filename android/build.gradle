@@ -34,3 +34,7 @@ task clean(type: Delete) {
 task wrapper(type: Wrapper) {
     gradleVersion = '8.0.2'
     }
+
+ tasks.register Wrapper ("wrapper") {
+        gradleVersion = "8.0.2"
+    }   
