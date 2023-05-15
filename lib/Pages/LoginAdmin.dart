@@ -6,7 +6,9 @@ import '../components/my_components.dart';
 class LoginAdmin extends StatelessWidget {
   //اعطاء اسم للصفة لتسهيل الاستدعاء في / main
   static const String id = 'Login_Admin';
-  const LoginAdmin({super.key});
+  const LoginAdmin({
+    Key? key,
+  }) : super(key: key);
 
 //class _LoginAdmin extends State<LoginAdmin>{
   // final _emailController = TextEditingController();

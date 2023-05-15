@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'Home.dart';
 
 class Baseer extends StatelessWidget {
-  const Baseer({super.key});
+  const Baseer({key});
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(

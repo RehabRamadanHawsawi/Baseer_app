@@ -5,13 +5,13 @@ import 'package:flutter/material.dart';
 
 class MyTextField extends StatelessWidget {
   const MyTextField({
-    super.key,
+    Key? key,
     this.hintText,
     this.prefixIcon,
     this.obscureText,
     //required TextEditingController cnotroller,
     //required TextEditingController controller,
-  });
+  }) : super(key: key);
 
   final String? hintText;
   final Widget? prefixIcon;
